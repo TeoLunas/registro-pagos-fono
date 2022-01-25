@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body{
     background-color: thistle;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,18 +13,18 @@ body{
     margin: 0;
 }
 
-.container{
+.contenedor{
     background-color: rgba(134, 133, 133, 0.4);
     padding: 20px 40px;
     border-radius: 5px;
 }
 
-.container h1{
+.contenedor h1{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.btn{
+.boton{
     border: 0;
     border-radius: 5px;
     display: inline-block;
@@ -32,13 +34,13 @@ body{
     cursor: pointer;
 }
 
-.form-control{
+.form-control-datos{
     position: relative;
     margin: 20px 0 40px;
     width: 300px;
 }
 
-.form-control input{
+.form-control-datos input{
     background-color: transparent;
     border: 0;
     border-bottom: 2px solid red;
@@ -49,13 +51,35 @@ body{
     color: #fff;
 }
 
-.form-control input:focus{
+.form-control-datos input:focus{
     outline: 0;
     border-bottom-color: lightblue;
 }
 
-.form-control label{
+.form-control-datos label{
     position: absolute;
     bottom: 45px;
     left: 0px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container-botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 0px 25px 25px black;;
+}
+
+.btn-control{
+    position: relative;
+    margin: 40px 20px 20px;
+    width: 70%;
 }

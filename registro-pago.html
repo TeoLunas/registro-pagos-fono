@@ -3,44 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Registro Pago</title>
 </head>
 <body>
+
+    <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="./registro-pago.html">Registrar Pago</a>
+        <a class="nav-link" href="./pagos.html">Ver Pagos</a>
+        <a class="nav-link" href="#">Editar Pagos</a>
+      </nav>
     
-    <div class="container">
+    <div class="contenedor">
 
         <h1>Registro Pago</h1>
 
         <form action="">
 
-            <div class="form-control">
+            <div class="form-control-datos">
                 <label for="fecha_clase">Fecha Clase</label>
                 <input type="date" name="fecha_clase" id="fecha_clase_form">
             </div>
 
-            <div class="form-control">
+            <div class="form-control-datos">
                 <label for="monto">Monto</label>
                 <input type="text" name="monto" id="monto">
             </div>
             
-            <div class="form-control">
+            <div class="form-control-datos">
                 <label for="pagada">Pagada</label>
                 <input type="text" name="pagada" id="pagada_form">
             </div>
 
-            <div class="form-control">
+            <div class="form-control-datos">
                 <label for="fecha_pago">Fecha Pago</label>
                 <input type="date" name="fecha_pago" id="fecha_pago_form">
             </div>
 
-            <div class="form-control">
+            <div class="form-control-datos">
                 <label for="medio_pago">Medio Pago</label>
                 <input type="text" name="medio_pago" id="medio_pago_form">
             </div>
 
-            <button type="submit" class="btn">Registrar</button>
+            <button type="submit" class="boton">Registrar</button>
         </form>
 
     </div>
